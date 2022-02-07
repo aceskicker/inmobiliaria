@@ -202,6 +202,10 @@ header.transparente nav a:hover{
     padding: 2rem 1rem;
 }
 
+.fila.contacto{
+    margin-top: 80px;
+}
+
 /* tamaño columnas */
 
 .col-100{
