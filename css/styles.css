@@ -611,3 +611,27 @@ text-align: center;
 .card .footer-card a:hover{
     background-color: #714a23;
 }
+
+/* Ficha propiedad */
+
+.propiedad{
+    margin-top: 80px;
+    background-image: url("/22_recursos/img/property5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.propiedad div:first-child{
+    background-color: rgba(255, 255, 255, 0.911)
+}
+
+.propiedad div:first-child h1{
+    font-size: 1.4rem;
+    color: #a97c50;
+}
+
+.propiedad div:first-child p img{
+    width: 28px;
+    height: 28px;
+}
