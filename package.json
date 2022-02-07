@@ -1,0 +1,17 @@
+{
+  "name": "inmobiliaria",
+  "version": "1.0.0",
+  "description": "\"sitio web de alquiler y venta de casas en colombia, es un prototipo para una pagina web de una inmobiliaria\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "inmobiliaria",
+    "prototipo",
+    "venta",
+    "alquiler"
+  ],
+  "author": "Aceskicker",
+  "license": "MIT"
+}
