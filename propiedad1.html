@@ -65,6 +65,9 @@
                 <img class="m-r-small" src="/22_recursos/img/contract.svg" alt="Icono Contrato">
                 Entrega inmediata
             </p>
+            <p class="flex-end">
+                <button onclick="openModal()">Ver imagenes</button>
+            </p>
         </div>
         <div class="col-50"></div>
     </div>
@@ -102,5 +105,36 @@
             </div>
         </div>
     </footer>
+    <div class="overlay"></div>
+    <div class="carrusel">
+        <div class="slide">
+            <img src="/22_recursos/img/thumb2.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="/22_recursos/img/thumb3.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="/22_recursos/img/thumb4.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="/22_recursos/img/thumb5.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="/22_recursos/img/thumb6.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="/22_recursos/img/thumb8.jpg" alt="">
+        </div>
+        <div class="x-modal" onclick="closeModal()">
+            <img src="/22_recursos/img/x.svg" alt="">
+        </div>
+        <div class="rigth-arrow" onclick="nextSlide()">
+            <img src="/22_recursos/img/right.svg" alt="">
+        </div>
+        <div class="left-arrow" onclick="prevSlide()">
+            <img src="/22_recursos/img/left.svg" alt="">
+        </div>
+    </div>
+    <script src="/22_recursos/js/carrusel.js"></script>
 </body>
 </html>
